@@ -29,6 +29,7 @@ module.exports = {
   },
   plugins: ['react', 'jsx-a11y', '@typescript-eslint'],
   rules: {
+    'arrow-body-style': 0,
     'react/react-in-jsx-scope': 'off',
     'react/jsx-filename-extension': ['warn', { extensions: ['.tsx'] }],
     'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
