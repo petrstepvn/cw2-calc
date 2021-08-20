@@ -1,5 +1,12 @@
+import InfectedCalculator from './pages/InfectedCalculator';
+
 const App = () => {
-  return <h1 className="text-indigo-500">CW2 calc</h1>;
+  return (
+    <div>
+      <h1>CW2 calc</h1>
+      <InfectedCalculator />
+    </div>
+  );
 };
 
 export default App;

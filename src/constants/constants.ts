@@ -1,0 +1,5 @@
+export const XP_PER_FRAGMENT = 2000;
+
+export const MAX_INFECTED_STONE_LEVEL = 30;
+
+export const INFECTED_STONE_XP_PROPHECY_MULTIPLIER = 2;
